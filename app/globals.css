@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--brand:#2563eb;--brand2:#14b8a6} body{background:#f8fafc;color:#0f172a}.card{@apply bg-white border border-slate-200 rounded-3xl shadow-soft}.btn{@apply inline-flex items-center justify-center rounded-2xl px-4 py-2 font-semibold transition}.btn-primary{background:var(--brand);color:white}.btn-ghost{@apply bg-slate-100 text-slate-700 hover:bg-slate-200}.input{@apply w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none focus:ring-2 focus:ring-blue-200}.pill{@apply rounded-full px-3 py-1 text-xs font-semibold}.navitem{@apply flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-600 hover:bg-slate-100}.navitem.active{background:var(--brand);color:white}
